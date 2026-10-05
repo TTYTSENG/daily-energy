@@ -1,0 +1,39 @@
+# Signing material and local secrets
+/signing/
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.pub
+.env
+.env.*
+!.env.example
+local.properties
+*.local.*
+
+# Generated builds and downloads
+/build/
+/dist/
+/node_modules/
+/test-results/
+*.apk
+*.aab
+*.idsig
+*.zip
+*.log
+
+# Personal backups: store these outside the repository
+/backups/
+*backup*.json
+*備份*.json
+*.csv
+*.xlsx
+
+# Editor and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

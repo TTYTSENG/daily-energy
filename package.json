@@ -1,0 +1,13 @@
+{
+  "name": "daily-energy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline Traditional Chinese Android energy balance tracker",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test tests/engine.test.mjs",
+    "test:ui": "node tests/ui.test.mjs"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
